@@ -1,0 +1,175 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh !important;
+    margin-top: 0px !important;
+}
+
+.center{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+}
+
+.center-top{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.center-top-2{
+    margin-top: 2vh;
+}
+
+.top-5{
+    margin-top: 5vh;
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh !important;
+    margin-bottom: 0vh !important;
+}
+
+label{
+    font-size: 0.6rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+    color: #000;
+}
+a{
+    font-size: 0.6rem;
+}
+
+.label {
+    width: 75%;
+}
+
+input{
+    width: 50%;
+    height: 4vh;
+    background-color: #e2e2e2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-login {
+    height: 4vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #004AAD;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.patrocinio{
+    width: 40px;
+}
+
+.circle-logo {
+    width: 40px;
+    height: 40px; 
+    background-color: #fff; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    height: 10%;
+    display: grid; 
+    justify-items: center; 
+    align-items: center; 
+    margin-top: 7vh;
+}
+
+.post-footer{
+    width: 60%; 
+    display: flex; 
+    justify-content: space-around;
+}
+
+.family-inclusive {
+    height: 65%;
+}
+
+.logo {
+    height: 75%;
+}
+
+.left {
+    width: 65%; 
+    background-color: #004AAD;
+}
+
+.right{
+    width: 35%;
+    display: grid;
+    align-items: center;
+}
+
+.phrases {
+    height: 30%;
+}
+
+.container{
+    margin-top: 5vh;
+}
+
+.img-logo{
+    height: 10%; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.image-login{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 90%;
+}
+
+@media (max-width: 768px) {
+    .family-inclusive {
+        height: 35%;
+    }
+
+    .logo {
+        height: 80%;
+    }
+}

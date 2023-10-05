@@ -9,14 +9,13 @@ body{
     display: flex;
 }
 
-h1 {
+h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    color: #323031;
+    color: #000;
     display: flex;
     justify-content: center;
-    padding-top: 25%;
-    margin-bottom: 1vh !important;
+    margin-bottom: 2vh !important;
     margin-top: 0px !important;
 }
 
@@ -30,13 +29,10 @@ h1 {
     display: grid; 
     justify-items: center; 
     align-items: center;
-    margin-top: 1vh;
+    margin-top: 3vh;
 }
 
 .center-top-2{
-    display: grid; 
-    justify-items: center; 
-    align-items: center;
     margin-top: 2vh;
 }
 
@@ -44,20 +40,23 @@ h1 {
     margin-top: 5vh;
 }
 
-h3 {
+h6 {
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    color: #323031;
+    color: #000;
     display: flex;
     justify-content: center;
     margin-top: 1vh !important;
+    margin-bottom: 0vh !important;
 }
 
 label{
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    color: #323031;
+    font-weight: 550;
+    color: #000;
+}
+a{
+    font-size: 0.6rem;
 }
 
 .label {
@@ -65,7 +64,7 @@ label{
 }
 
 input{
-    width: 75%;
+    width: 50%;
     height: 4vh;
     background-color: #e2e2e2;
     border: none;
@@ -74,34 +73,37 @@ input{
 }
 
 .button-login {
-    width: 75%;
-    height: 5vh;
-    background-color: #1DB954;
+    height: 4vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #004AAD;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-register {
-    width: 75%;
-    height: 5vh;
-    background-color: #E2E2E2;
+button{
+    background-color: transparent;
     border: none;
-    border-radius: 5px;
-    color: #323031;
-    font-size: 1rem;
-    font-weight: 700;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 550;
 }
 
 .patrocinio{
-    width: 50px;
+    width: 40px;
 }
 
 .circle-logo {
-    width: 50px;
-    height: 50px; 
+    width: 40px;
+    height: 40px; 
     background-color: #fff; 
     border-radius: 50%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -112,11 +114,11 @@ input{
     display: grid; 
     justify-items: center; 
     align-items: center; 
-    margin-top: 5vh;
+    margin-top: 7vh;
 }
 
 .post-footer{
-    width: 70%; 
+    width: 60%; 
     display: flex; 
     justify-content: space-around;
 }
@@ -126,16 +128,18 @@ input{
 }
 
 .logo {
-    height: 150%;
+    height: 75%;
 }
 
 .left {
-    width: 40%;
+    width: 65%; 
+    background-color: #004AAD;
 }
 
 .right{
-    width: 60%; 
-    background-color: #1DB954;
+    width: 35%;
+    display: grid;
+    align-items: center;
 }
 
 .phrases {
@@ -150,7 +154,7 @@ input{
     height: 10%; 
     width: 100%; 
     display: flex; 
-    justify-content: end;
+    justify-content: center;
 }
 
 .image-login{
